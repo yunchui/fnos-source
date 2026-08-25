@@ -1,0 +1,48 @@
+{
+  "schema_version": "2",
+  "source_info": {
+    "name": "yunchui 的 Hermes Studio 源",
+    "author": "yunchui",
+    "homepage": "https://github.com/yunchui/fnos-source",
+    "description": "专注于 Hermes Studio 原生 fpk 的打包，支持 x86、arm 双平台（platform=all 单包）。"
+  },
+  "apps": {
+    "HermesStudio": {
+      "display_name": "Hermes Studio",
+      "desc": "🐴Hermes Studio 是 Hermes Agent 的桌面 / Web 控制台与本地运行时。Agent 对话、可视化工作流、模型与 Profile 管理、网页浏览、Coding Agent 和本地运行环境都在一个界面中完成。",
+      "platform": [
+        "all"
+      ],
+      "categories": [
+        "AI",
+        "系统工具"
+      ],
+      "icon_url": "HermesStudio/ICON.PNG",
+      "preview_urls": [
+        "HermesStudio/Preview/1.png"
+      ],
+      "readme_url": "HermesStudio/README.md",
+      "bug_report_url": "https://github.com/yunchui/fnos-source/issues",
+      "maintainer": "EKKOLearnAI",
+      "maintainer_url": "https://github.com/EKKOLearnAI/hermes-studio",
+      "distributor": "yunchui",
+      "distributor_url": "https://github.com/yunchui/fnos-source",
+      "run_as": "package",
+      "install_type": "存储空间",
+      "is_docker": false,
+      "service_port": "8648",
+      "releases": {
+        "0.6.46-1": {
+          "changelog": "跟随官方 GitHub Release 预构建产物自动对齐 hermes-web-ui 版本",
+          "packages": {
+            "all": {
+              "download_url": "https://github.com/yunchui/Fnos-Hermes-Studio/releases/download/v0.6.46-1/fnos-hermes-studio_v0.6.46-1.fpk",
+              "sha256": "6e8c250db3c926b252d06d5279d79593040215664ec90ea580c1846dd6a75be6",
+              "size": 318828169
+            }
+          }
+        }
+      }
+    }
+  }
+}
