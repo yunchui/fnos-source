@@ -7,7 +7,7 @@
     "description": "专注于 Hermes Studio 原生 fpk 的打包，支持 x86、arm 双平台（platform=all 单包）。"
   },
   "apps": {
-    "HermesStudio": {
+    "hermes-studio": {
       "display_name": "Hermes Studio",
       "desc": "🐴Hermes Studio 是 Hermes Agent 的桌面 / Web 控制台与本地运行时。Agent 对话、可视化工作流、模型与 Profile 管理、网页浏览、Coding Agent 和本地运行环境都在一个界面中完成。",
       "platform": [
@@ -17,11 +17,11 @@
         "AI",
         "系统工具"
       ],
-      "icon_url": "HermesStudio/ICON.PNG",
+      "icon_url": "hermes-studio/ICON.PNG",
       "preview_urls": [
-        "HermesStudio/Preview/1.png"
+        "hermes-studio/Preview/1.png"
       ],
-      "readme_url": "HermesStudio/README.md",
+      "readme_url": "hermes-studio/README.md",
       "bug_report_url": "https://github.com/yunchui/fnos-source/issues",
       "maintainer": "EKKOLearnAI",
       "maintainer_url": "https://github.com/EKKOLearnAI/hermes-studio",

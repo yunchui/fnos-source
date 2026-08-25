@@ -14,7 +14,7 @@
 
 | 包名 | 显示名 | 版本 | 平台 | 说明 |
 |------|--------|------|------|------|
-| HermesStudio | Hermes Studio | 0.6.46-1 | all | 🐴Hermes Agent 本地运行时与 Web 控制台 |
+| hermes-studio | Hermes Studio | 0.6.46-1 | all | 🐴Hermes Agent 本地运行时与 Web 控制台 |
 
 ## FPK 下载来源
 
@@ -27,7 +27,7 @@
 fnos-source/
 ├── fnpack.json          # 源索引 v1（飞牛应用中心读取）
 ├── fnpackv2.json        # 源索引 v2（新版飞牛应用中心读取）
-└── HermesStudio/        # 应用目录
+└── hermes-studio/        # 应用目录
     ├── ICON.PNG         # 应用图标
     ├── README.md        # 应用说明
     └── Preview/         # 预览图
