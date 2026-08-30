@@ -32,13 +32,13 @@
       "is_docker": false,
       "service_port": "8648",
       "releases": {
-        "0.7.0-1": {
+        "0.7.11-1": {
           "changelog": "跟随官方 GitHub Release 预构建产物自动对齐 hermes-web-ui 版本",
           "packages": {
             "all": {
-              "download_url": "https://github.com/yunchui/Fnos-Hermes-Studio/releases/download/v0.7.0-1/fnos-hermes-studio_v0.7.0-1.fpk",
-              "sha256": "4401e39c4dcbf86ebd2029fa923be72d37168b51c5c0a938618354716b689e5d",
-              "size": 324386229
+              "download_url": "https://github.com/yunchui/Fnos-Hermes-Studio/releases/download/v0.7.11-1/fnos-hermes-studio_v0.7.11-1.fpk",
+              "sha256": "1150fdec8ba1d39b32da59bc6293214e285d4be036c059a47b9261a90f775f26",
+              "size": 324350996
             }
           }
         }
