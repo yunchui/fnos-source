@@ -4,13 +4,13 @@
     "platform": "all",
     "desc": "🐴Hermes Studio 是 Hermes Agent 的桌面 / Web 控制台与本地运行时。Agent 对话、可视化工作流、模型与 Profile 管理、网页浏览、Coding Agent 和本地运行环境都在一个界面中完成。",
     "labels": "原生,AI,工具",
-    "version": "0.7.11-1",
+    "version": "0.7.13-1",
     "distributor": "yunchui",
     "distributor_url": "https://github.com/yunchui/fnos-source",
     "bug_report_url": "https://github.com/yunchui/fnos-source/issues",
     "install_type": "存储空间",
     "size": "309",
     "changelog": "跟随官方 GitHub Release 预构建产物自动对齐 hermes-web-ui 版本",
-    "download_url": "https://github.com/yunchui/Fnos-Hermes-Studio/releases/download/v0.7.11-1/fnos-hermes-studio_v0.7.11-1.fpk"
+    "download_url": "https://github.com/yunchui/Fnos-Hermes-Studio/releases/download/v0.7.13-1/fnos-hermes-studio_v0.7.13-1.fpk"
   }
 }
