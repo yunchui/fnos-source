@@ -28,7 +28,7 @@
       "distributor": "yunchui",
       "distributor_url": "https://github.com/yunchui/fnos-source",
       "run_as": "package",
-      "install_type": "存储空间",
+      "install_type": "",
       "is_docker": false,
       "service_port": "8648",
       "releases": {
