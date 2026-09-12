@@ -40,7 +40,9 @@
               "sha256": "a285a424cae8896ef19247d0a89f4feca457c21aac9f34fb2cf0d879167a47d5",
               "size": 328415878
             }
-          }
+          },
+          "updated_at": "2026-09-11T16:10:19+08:00",
+          "os_min_version": "1.0.0"
         }
       }
     }
