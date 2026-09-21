@@ -57,6 +57,44 @@
           }
         }
       }
+    },
+    "fnmusic-ext": {
+      "display_name": "fnMusic 音源扩展",
+      "desc": "飞牛音乐第三方音源扩展：零侵入接管官方音乐入口，提供 musicdl 聚合（57 平台）、网易云、洛雪自定义源在线搜索播放，内置管理页（音源切换/扫码登录/平台选择/边听边存）。",
+      "platform": [
+        "all"
+      ],
+      "categories": [
+        "影音娱乐",
+        "系统工具"
+      ],
+      "icon_url": "./fnmusic-ext/ICON.PNG",
+      "preview_urls": [
+        "./fnmusic-ext/ICON_256.PNG"
+      ],
+      "readme_url": "./fnmusic-ext/README.md",
+      "bug_report_url": "https://github.com/yunchui/fnos_music_ext/issues",
+      "maintainer": "javycoder",
+      "maintainer_url": "https://github.com/javycoder/fnos_music_ext",
+      "distributor": "yunchui",
+      "distributor_url": "https://github.com/yunchui/fnos_music_ext",
+      "run_as": "root",
+      "install_type": "",
+      "is_docker": true,
+      "releases": {
+        "2.1.0": {
+          "changelog": "v2.1.0：适配飞牛应用中心 fpk 打包与自动发布。三音源完整（musicdl 聚合/网易云/洛雪）+ 管理 WebUI。",
+          "updated_at": "2026-09-21T12:55:24+08:00",
+          "os_min_version": "1.2.0",
+          "packages": {
+            "all": {
+              "download_url": "https://github.com/yunchui/fnos_music_ext/releases/download/v2.1.0/fnmusic-ext-2.1.0.fpk",
+              "sha256": "0fc847a688cf46b75592187a63f04aa51fc089c0b26fc0360e9335af7978ba61",
+              "size": 578841
+            }
+          }
+        }
+      }
     }
   }
 }
