@@ -155,6 +155,43 @@
           }
         }
       }
+    },
+    "FanControlServer": {
+      "display_name": "Fan Control Server",
+      "desc": "<b>FanControlServer</b> 智能风扇与温度管理工具，专为飞牛私有云及 Linux 服务器设计。独立控制每个风扇的智能温控曲线、手动/自动模式 0-255 PWM，实时 CPU/GPU/内存/硬盘温度监控，NVMe/SATA 硬盘温度读取，历史温度曲线图表，过热阈值强制全速，系统登录态+管理员写保护。响应式 Web 界面+深色主题，WebSocket 实时推送。经系统统一网关访问。",
+      "platform": [
+        "x86"
+      ],
+      "categories": [
+        "系统工具"
+      ],
+      "icon_url": "./FanControlServer/ICON.PNG",
+      "preview_urls": [
+        "./FanControlServer/ICON_256.PNG"
+      ],
+      "readme_url": "./FanControlServer/README.md",
+      "bug_report_url": "https://github.com/guan-ry/FanControlServerApp/issues",
+      "maintainer": "guan-ry",
+      "maintainer_url": "https://github.com/guan-ry",
+      "distributor": "yunchui",
+      "distributor_url": "https://github.com/yunchui/FanControlServerApp",
+      "run_as": "root",
+      "install_type": "",
+      "is_docker": false,
+      "releases": {
+        "1.3.7.1": {
+          "changelog": "跟随上游 guan-ry/FanControlServerApp 自动同步。",
+          "updated_at": "2026-08-13T16:29:00+08:00",
+          "os_min_version": "1.0.0",
+          "packages": {
+            "all": {
+              "download_url": "https://github.com/yunchui/FanControlServerApp/releases/download/v1.3.7.1/FanControlServer-v1.3.7.1-linux-amd64-url.fpk",
+              "sha256": "ec78a3a1a0d42004753e8341751ecbff5b846f4f96986c418b9f1713a6454932",
+              "size": 6354395
+            }
+          }
+        }
+      }
     }
   }
 }
