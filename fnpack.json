@@ -213,6 +213,18 @@
               "size": 1568440
             }
           }
+        },
+        "2.6.3": {
+          "changelog": "跟随上游 javycoder/fnos_music_ext 自动同步。",
+          "updated_at": "2026-09-30T16:36:46+08:00",
+          "os_min_version": "1.2.0",
+          "packages": {
+            "all": {
+              "download_url": "https://github.com/yunchui/fnos_music_ext/releases/download/v2.6.3/fnmusic-ext-2.6.3.fpk",
+              "sha256": "b24968b4af79c21fe161be4de0aef617e38d32804ccc800d9d10d79ab5fb0e4b",
+              "size": 1590155
+            }
+          }
         }
       }
     },
