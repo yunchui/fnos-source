@@ -235,6 +235,18 @@
               "size": 363860522
             }
           }
+        },
+        "0.7.37-1": {
+          "changelog": "跟随官方 GitHub Release 预构建产物自动对齐 hermes-web-ui 版本。",
+          "updated_at": "2026-10-19T20:32:03+08:00",
+          "os_min_version": "1.0.0",
+          "packages": {
+            "all": {
+              "download_url": "https://github.com/yunchui/Fnos-Hermes-Studio/releases/download/v0.7.37-1/fnos-hermes-studio_v0.7.37-1.fpk",
+              "sha256": "b8d6e9e676473c2196cce8e45721ffbd8f5262aeaa3986734b86fe471cd97ac3",
+              "size": 380016061
+            }
+          }
         }
       }
     },
