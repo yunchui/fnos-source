@@ -329,140 +329,20 @@
       "maintainer": "javycoder",
       "maintainer_url": "https://github.com/javycoder/fnos_music_ext",
       "distributor": "yunchui",
-      "distributor_url": "https://github.com/yunchui/fnos_music_ext",
+      "distributor_url": "https://github.com/javycoder/fnos_music_ext",
       "run_as": "root",
       "install_type": "",
       "is_docker": true,
       "releases": {
-        "2.1.0": {
-          "changelog": "v2.1.0：适配飞牛应用中心 fpk 打包与自动发布。三音源完整（musicdl 聚合/网易云/洛雪）+ 管理 WebUI。",
-          "updated_at": "2026-09-21T12:55:24+08:00",
+        "2.10.2": {
+          "changelog": "基线：相对 2.10.1。修复 2.10.1 应用中心安装/更新时容器内 WebUI 缺 llm_usage 模块导致健康检查超时、安装回滚（#84/#85）；修复 Docker 模式管理页 LLM 用量为空（#85，WEBUI_REPO_DIR + 0644）；CI Gitee 附件上传脉冲超时修复（28MB fpk）。",
+          "updated_at": "2026-10-23T20:31:02+08:00",
           "os_min_version": "1.2.0",
           "packages": {
             "all": {
-              "download_url": "https://github.com/yunchui/fnos_music_ext/releases/download/v2.1.0/fnmusic-ext-2.1.0.fpk",
-              "sha256": "0fc847a688cf46b75592187a63f04aa51fc089c0b26fc0360e9335af7978ba61",
-              "size": 578841
-            }
-          }
-        },
-        "2.2.3": {
-          "changelog": "跟随上游 javycoder/fnos_music_ext 自动同步。",
-          "updated_at": "2026-09-22T09:41:50+08:00",
-          "os_min_version": "1.2.0",
-          "packages": {
-            "all": {
-              "download_url": "https://github.com/yunchui/fnos_music_ext/releases/download/v2.2.3/fnmusic-ext-2.2.3.fpk",
-              "sha256": "83e4c66efe708cd6744b859cf6404595e701006406e6f2c38358ee70a11a3314",
-              "size": 2548726
-            }
-          }
-        },
-        "2.2.6": {
-          "changelog": "跟随上游 javycoder/fnos_music_ext 自动同步。",
-          "updated_at": "2026-09-22T15:20:59+08:00",
-          "os_min_version": "1.2.0",
-          "packages": {
-            "all": {
-              "download_url": "https://github.com/yunchui/fnos_music_ext/releases/download/v2.2.6/fnmusic-ext-2.2.6.fpk",
-              "sha256": "906062df22d5336ad4724eb2b8e78f813b146bb9b23773f82eb7ff5d1845d8d8",
-              "size": 1454310
-            }
-          }
-        },
-        "2.2.7": {
-          "changelog": "跟随上游 javycoder/fnos_music_ext 自动同步。",
-          "updated_at": "2026-09-23T15:47:22+08:00",
-          "os_min_version": "1.2.0",
-          "packages": {
-            "all": {
-              "download_url": "https://github.com/yunchui/fnos_music_ext/releases/download/v2.2.7/fnmusic-ext-2.2.7.fpk",
-              "sha256": "2eea560d1f9305d4eb8be2d0c1c8291d7848108737a8d9d987fc84071fbdbb51",
-              "size": 1482028
-            }
-          }
-        },
-        "2.4.0": {
-          "changelog": "跟随上游 javycoder/fnos_music_ext 自动同步。",
-          "updated_at": "2026-09-24T15:37:37+08:00",
-          "os_min_version": "1.2.0",
-          "packages": {
-            "all": {
-              "download_url": "https://github.com/yunchui/fnos_music_ext/releases/download/v2.4.0/fnmusic-ext-2.4.0.fpk",
-              "sha256": "4309ea1a46a95dfe6f3553570a9c94dc96f005104f53a7f1f1dea186c11f99b9",
-              "size": 1497836
-            }
-          }
-        },
-        "2.5.1": {
-          "changelog": "跟随上游 javycoder/fnos_music_ext 自动同步。",
-          "updated_at": "2026-09-28T16:43:40+08:00",
-          "os_min_version": "1.2.0",
-          "packages": {
-            "all": {
-              "download_url": "https://github.com/yunchui/fnos_music_ext/releases/download/v2.5.1/fnmusic-ext-2.5.1.fpk",
-              "sha256": "bdd57cc11bdaed4c9573b2dc96031b40486e14b2752bc4cd1446a1bf2b86b062",
-              "size": 1532702
-            }
-          }
-        },
-        "2.6.2": {
-          "changelog": "跟随上游 javycoder/fnos_music_ext 自动同步。",
-          "updated_at": "2026-09-29T16:34:09+08:00",
-          "os_min_version": "1.2.0",
-          "packages": {
-            "all": {
-              "download_url": "https://github.com/yunchui/fnos_music_ext/releases/download/v2.6.2/fnmusic-ext-2.6.2.fpk",
-              "sha256": "58aab65f91bd077326bd6e087eaf09788a6f4c7897473f436c2ed6e5913194ac",
-              "size": 1568440
-            }
-          }
-        },
-        "2.6.3": {
-          "changelog": "跟随上游 javycoder/fnos_music_ext 自动同步。",
-          "updated_at": "2026-09-30T16:36:46+08:00",
-          "os_min_version": "1.2.0",
-          "packages": {
-            "all": {
-              "download_url": "https://github.com/yunchui/fnos_music_ext/releases/download/v2.6.3/fnmusic-ext-2.6.3.fpk",
-              "sha256": "b24968b4af79c21fe161be4de0aef617e38d32804ccc800d9d10d79ab5fb0e4b",
-              "size": 1590155
-            }
-          }
-        },
-        "2.8.0d": {
-          "changelog": "跟随上游 javycoder/fnos_music_ext 自动同步。",
-          "updated_at": "2026-10-10T16:31:59+08:00",
-          "os_min_version": "1.2.0",
-          "packages": {
-            "all": {
-              "download_url": "https://github.com/yunchui/fnos_music_ext/releases/download/v2.8.0d/fnmusic-ext-2.8.0d.fpk",
-              "sha256": "add7d2369700347481dd7914b6aefd5669498dc476338208bfe0716a3b2a2ada",
-              "size": 27122392
-            }
-          }
-        },
-        "2.8.2": {
-          "changelog": "跟随上游 javycoder/fnos_music_ext 自动同步。",
-          "updated_at": "2026-10-11T16:55:24+08:00",
-          "os_min_version": "1.2.0",
-          "packages": {
-            "all": {
-              "download_url": "https://github.com/yunchui/fnos_music_ext/releases/download/v2.8.2/fnmusic-ext-2.8.2.fpk",
-              "sha256": "ad9c7fbfdee37d333af65f1264f447302d357a038e44c55e6188a6a93acf1bec",
-              "size": 27171103
-            }
-          }
-        },
-        "2.8.3": {
-          "changelog": "跟随上游 javycoder/fnos_music_ext 自动同步。",
-          "updated_at": "2026-10-12T17:15:58+08:00",
-          "os_min_version": "1.2.0",
-          "packages": {
-            "all": {
-              "download_url": "https://github.com/yunchui/fnos_music_ext/releases/download/v2.8.3/fnmusic-ext-2.8.3.fpk",
-              "sha256": "af2a99047c3655832b4f166259808b83dd6ed970a29724674817930af4a8f98f",
-              "size": 27177683
+              "download_url": "https://github.com/javycoder/fnos_music_ext/releases/download/v2.10.2/fnmusic-ext-2.10.2.fpk",
+              "sha256": "af837b8cfad47bb696354689c722b422e0da852faa02915faa68c87387af9ca7",
+              "size": 27981205
             }
           }
         }
