@@ -423,8 +423,8 @@
           "packages": {
             "all": {
               "download_url": "https://github.com/yunchui/Fnos-Hermes-Studio/releases/download/v0.8.19-1/fnos-hermes-studio_v0.8.19-1.fpk",
-              "sha256": "f2dae9b645cde93e8261323bc4a86beacd2868749b28132b1646c98d39f97aca",
-              "size": 444166944
+              "sha256": "a793eea265cca6a76c47769b9882d3dbc400d998474af64ce28135386bcaf7b3",
+              "size": 444169271
             }
           }
         }
